@@ -9,5 +9,12 @@ class MailApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
+	@Test
+	void test01() {
+		String a = "aaa";
+		String b = a.intern();
+		System.out.println(a==b);
+	}
 
 }
