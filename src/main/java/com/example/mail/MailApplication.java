@@ -10,5 +10,5 @@ public class MailApplication {
 		//dev
 		SpringApplication.run(MailApplication.class, args);
 	}
-
+	
 }
